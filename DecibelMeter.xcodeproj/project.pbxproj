@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55981C5D2759BA7A00C3402D /* Float+dB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55981C5C2759BA7A00C3402D /* Float+dB.swift */; };
+		55DEA90C27585BB800E1E322 /* DecibelMeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DEA90B27585BB800E1E322 /* DecibelMeterApp.swift */; };
+		55DEA90E27585BB900E1E322 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DEA90D27585BB900E1E322 /* MainView.swift */; };
+		55DEA91027585BBA00E1E322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DEA90F27585BBA00E1E322 /* Assets.xcassets */; };
+		55DEA91327585BBA00E1E322 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DEA91227585BBA00E1E322 /* Preview Assets.xcassets */; };
+		55DEA91D27585BBA00E1E322 /* DecibelMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DEA91C27585BBA00E1E322 /* DecibelMeterTests.swift */; };
+		55DEA93627585D9300E1E322 /* RecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DEA93527585D9300E1E322 /* RecordingService.swift */; };
+		55DEA9392758600E00E1E322 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DEA9382758600E00E1E322 /* MainViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55DEA91927585BBA00E1E322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DEA90027585BB800E1E322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DEA90727585BB800E1E322;
+			remoteInfo = DecibelMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55981C5C2759BA7A00C3402D /* Float+dB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+dB.swift"; sourceTree = "<group>"; };
+		55DEA90827585BB800E1E322 /* DecibelMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecibelMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DEA90B27585BB800E1E322 /* DecibelMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecibelMeterApp.swift; sourceTree = "<group>"; };
+		55DEA90D27585BB900E1E322 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		55DEA90F27585BBA00E1E322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55DEA91227585BBA00E1E322 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55DEA91827585BBA00E1E322 /* DecibelMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecibelMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DEA91C27585BBA00E1E322 /* DecibelMeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecibelMeterTests.swift; sourceTree = "<group>"; };
+		55DEA93527585D9300E1E322 /* RecordingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingService.swift; sourceTree = "<group>"; };
+		55DEA9382758600E00E1E322 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55DEA90527585BB800E1E322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DEA91527585BBA00E1E322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55981C5827597B2300C3402D /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				55DEA90D27585BB900E1E322 /* MainView.swift */,
+				55DEA9382758600E00E1E322 /* MainViewModel.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		55981C5927597B3000C3402D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				55DEA90B27585BB800E1E322 /* DecibelMeterApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		55981C5A27597B3D00C3402D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				55DEA90F27585BBA00E1E322 /* Assets.xcassets */,
+				55DEA91127585BBA00E1E322 /* Preview Content */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		55981C5B2759BA6A00C3402D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				55981C5C2759BA7A00C3402D /* Float+dB.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		55DEA8FF27585BB800E1E322 = {
+			isa = PBXGroup;
+			children = (
+				55DEA90A27585BB800E1E322 /* DecibelMeter */,
+				55DEA91B27585BBA00E1E322 /* DecibelMeterTests */,
+				55DEA90927585BB800E1E322 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55DEA90927585BB800E1E322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DEA90827585BB800E1E322 /* DecibelMeter.app */,
+				55DEA91827585BBA00E1E322 /* DecibelMeterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55DEA90A27585BB800E1E322 /* DecibelMeter */ = {
+			isa = PBXGroup;
+			children = (
+				55981C5B2759BA6A00C3402D /* Extensions */,
+				55981C5A27597B3D00C3402D /* Assets */,
+				55981C5927597B3000C3402D /* App */,
+				55981C5827597B2300C3402D /* MainView */,
+				55DEA93727585D9800E1E322 /* Services */,
+			);
+			path = DecibelMeter;
+			sourceTree = "<group>";
+		};
+		55DEA91127585BBA00E1E322 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55DEA91227585BBA00E1E322 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55DEA91B27585BBA00E1E322 /* DecibelMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				55DEA91C27585BBA00E1E322 /* DecibelMeterTests.swift */,
+			);
+			path = DecibelMeterTests;
+			sourceTree = "<group>";
+		};
+		55DEA93727585D9800E1E322 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				55DEA93527585D9300E1E322 /* RecordingService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55DEA90727585BB800E1E322 /* DecibelMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DEA92C27585BBA00E1E322 /* Build configuration list for PBXNativeTarget "DecibelMeter" */;
+			buildPhases = (
+				55DEA90427585BB800E1E322 /* Sources */,
+				55DEA90527585BB800E1E322 /* Frameworks */,
+				55DEA90627585BB800E1E322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecibelMeter;
+			productName = DecibelMeter;
+			productReference = 55DEA90827585BB800E1E322 /* DecibelMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55DEA91727585BBA00E1E322 /* DecibelMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DEA92F27585BBA00E1E322 /* Build configuration list for PBXNativeTarget "DecibelMeterTests" */;
+			buildPhases = (
+				55DEA91427585BBA00E1E322 /* Sources */,
+				55DEA91527585BBA00E1E322 /* Frameworks */,
+				55DEA91627585BBA00E1E322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DEA91A27585BBA00E1E322 /* PBXTargetDependency */,
+			);
+			name = DecibelMeterTests;
+			productName = DecibelMeterTests;
+			productReference = 55DEA91827585BBA00E1E322 /* DecibelMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55DEA90027585BB800E1E322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					55DEA90727585BB800E1E322 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					55DEA91727585BBA00E1E322 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 55DEA90727585BB800E1E322;
+					};
+				};
+			};
+			buildConfigurationList = 55DEA90327585BB800E1E322 /* Build configuration list for PBXProject "DecibelMeter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55DEA8FF27585BB800E1E322;
+			productRefGroup = 55DEA90927585BB800E1E322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DEA90727585BB800E1E322 /* DecibelMeter */,
+				55DEA91727585BBA00E1E322 /* DecibelMeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55DEA90627585BB800E1E322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DEA91327585BBA00E1E322 /* Preview Assets.xcassets in Resources */,
+				55DEA91027585BBA00E1E322 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DEA91627585BBA00E1E322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55DEA90427585BB800E1E322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DEA93627585D9300E1E322 /* RecordingService.swift in Sources */,
+				55981C5D2759BA7A00C3402D /* Float+dB.swift in Sources */,
+				55DEA90E27585BB900E1E322 /* MainView.swift in Sources */,
+				55DEA90C27585BB800E1E322 /* DecibelMeterApp.swift in Sources */,
+				55DEA9392758600E00E1E322 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DEA91427585BBA00E1E322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DEA91D27585BBA00E1E322 /* DecibelMeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55DEA91A27585BBA00E1E322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DEA90727585BB800E1E322 /* DecibelMeter */;
+			targetProxy = 55DEA91927585BBA00E1E322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55DEA92A27585BBA00E1E322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55DEA92B27585BBA00E1E322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DEA92D27585BBA00E1E322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DecibelMeter/Assets/Preview Content\"";
+				DEVELOPMENT_TEAM = ZN2YTMBTAT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Requesting Microphone Permission";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ekhasm.DecibelMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55DEA92E27585BBA00E1E322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DecibelMeter/Assets/Preview Content\"";
+				DEVELOPMENT_TEAM = ZN2YTMBTAT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Requesting Microphone Permission";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ekhasm.DecibelMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55DEA93027585BBA00E1E322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZN2YTMBTAT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ekhasm.DecibelMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecibelMeter.app/DecibelMeter";
+			};
+			name = Debug;
+		};
+		55DEA93127585BBA00E1E322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZN2YTMBTAT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ekhasm.DecibelMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecibelMeter.app/DecibelMeter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55DEA90327585BB800E1E322 /* Build configuration list for PBXProject "DecibelMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DEA92A27585BBA00E1E322 /* Debug */,
+				55DEA92B27585BBA00E1E322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DEA92C27585BBA00E1E322 /* Build configuration list for PBXNativeTarget "DecibelMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DEA92D27585BBA00E1E322 /* Debug */,
+				55DEA92E27585BBA00E1E322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DEA92F27585BBA00E1E322 /* Build configuration list for PBXNativeTarget "DecibelMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DEA93027585BBA00E1E322 /* Debug */,
+				55DEA93127585BBA00E1E322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55DEA90027585BB800E1E322 /* Project object */;
+}
