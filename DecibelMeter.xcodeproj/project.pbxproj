@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		55981C5C2759BA7A00C3402D /* Float+dB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+dB.swift"; sourceTree = "<group>"; };
-		55DEA90827585BB800E1E322 /* DecibelMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecibelMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DEA90827585BB800E1E322 /* Decibel Meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decibel Meter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DEA90B27585BB800E1E322 /* DecibelMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecibelMeterApp.swift; sourceTree = "<group>"; };
 		55DEA90D27585BB900E1E322 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		55DEA90F27585BBA00E1E322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 		55DEA90927585BB800E1E322 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55DEA90827585BB800E1E322 /* DecibelMeter.app */,
+				55DEA90827585BB800E1E322 /* Decibel Meter.app */,
 				55DEA91827585BBA00E1E322 /* DecibelMeterTests.xctest */,
 			);
 			name = Products;
@@ -163,7 +163,7 @@
 			);
 			name = DecibelMeter;
 			productName = DecibelMeter;
-			productReference = 55DEA90827585BB800E1E322 /* DecibelMeter.app */;
+			productReference = 55DEA90827585BB800E1E322 /* Decibel Meter.app */;
 			productType = "com.apple.product-type.application";
 		};
 		55DEA91727585BBA00E1E322 /* DecibelMeterTests */ = {
@@ -404,6 +404,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -412,10 +413,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ekhasm.DecibelMeter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Decibel Meter";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -434,6 +435,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -442,10 +444,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ekhasm.DecibelMeter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Decibel Meter";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
