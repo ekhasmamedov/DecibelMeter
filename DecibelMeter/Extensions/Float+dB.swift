@@ -9,6 +9,6 @@ import Foundation
 
 extension Float {
     var decibelValueFormat: String {
-        return String(format: "%.1f dB", self * 100)
+        return String(format: "%.1f dB", self)
     }
 }
